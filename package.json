@@ -1,13 +1,14 @@
 {
   "name": "shipjs-githubflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
     "start": "ts-node ./index.ts",
-    "test": "echo \"run test\""
+    "test": "echo \"run test\"",
+    "build": "echo \"run build\""
   },
   "repository": {
     "type": "git",
