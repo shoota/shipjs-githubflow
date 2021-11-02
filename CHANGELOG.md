@@ -4,6 +4,31 @@
 ### Bug Fixes
 
 * hot fix ([cc0b14d](https://github.com/shoota/shipjs-githubflow/commit/cc0b14de2c406248ac2c541e6014514c45fc189e))
+* hotfix! ([e369c4a](https://github.com/shoota/shipjs-githubflow/commit/e369c4af28cc07f2fb7d48619c3d585dd33c94f0))
+
+
+### Features
+
+* hello! ([#11](https://github.com/shoota/shipjs-githubflow/issues/11)) ([3481d01](https://github.com/shoota/shipjs-githubflow/commit/3481d01e2fe73c8f5723928cdcd259c64350b092))
+* implement feature for v0.3.0 ([#6](https://github.com/shoota/shipjs-githubflow/issues/6)) ([606ca75](https://github.com/shoota/shipjs-githubflow/commit/606ca75041d8332984df5087e9348dd4ba2626e1))
+
+
+
+## [0.3.1](https://github.com/shoota/shipjs-githubflow/compare/v0.2.0...v0.3.1) (2021-11-02)
+
+
+### Bug Fixes
+
+* hotfix! ([e369c4a](https://github.com/shoota/shipjs-githubflow/commit/e369c4af28cc07f2fb7d48619c3d585dd33c94f0))
+
+
+
+# [0.3.0](https://github.com/shoota/shipjs-githubflow/compare/v0.2.0...v0.3.0) (2021-11-02)
+
+
+### Bug Fixes
+
+* hot fix ([cc0b14d](https://github.com/shoota/shipjs-githubflow/commit/cc0b14de2c406248ac2c541e6014514c45fc189e))
 
 
 ### Features
