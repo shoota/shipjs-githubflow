@@ -1,8 +1,6 @@
 name: Ship js trigger
 on:
   push:
-    branches:
-      - master
 jobs:
   build:
     name: Release
