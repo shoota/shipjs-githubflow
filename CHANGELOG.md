@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/shoota/shipjs-githubflow/compare/v0.4.0...v0.4.1) (2021-11-05)
+
+
+### Bug Fixes
+
+* any bug ([8346f95](https://github.com/shoota/shipjs-githubflow/commit/8346f95e55300d9037692dcd1555a91a7158cc33))
+
+
+
 # [0.4.0](https://github.com/shoota/shipjs-githubflow/compare/v0.2.0...v0.4.0) (2021-11-05)
 
 
