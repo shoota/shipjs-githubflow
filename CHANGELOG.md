@@ -1,3 +1,13 @@
+# [0.5.0](https://github.com/shoota/shipjs-githubflow/compare/v0.4.1...v0.5.0) (2021-11-15)
+
+
+### Features
+
+* impl nice feature ([#18](https://github.com/shoota/shipjs-githubflow/issues/18)) ([f95d816](https://github.com/shoota/shipjs-githubflow/commit/f95d81622c29f8a3b909159b804d8bd28b663315))
+* implement good feature task ([#19](https://github.com/shoota/shipjs-githubflow/issues/19)) ([d6e44f8](https://github.com/shoota/shipjs-githubflow/commit/d6e44f820b7a6db4149a332b2065641eeb4da5b0))
+
+
+
 ## [0.4.1](https://github.com/shoota/shipjs-githubflow/compare/v0.4.0...v0.4.1) (2021-11-05)
 
 
