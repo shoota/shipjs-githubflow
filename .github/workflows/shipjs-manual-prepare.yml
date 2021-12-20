@@ -24,25 +24,3 @@ jobs:
       - run: npm run release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  # create_done_comment:
-  #   if: success()
-  #   needs: manual_prepare
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/github@master
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       with:
-  #         args: comment "@${{ github.actor }} `shipjs prepare` done"
-
-  # create_fail_comment:
-  #   if: cancelled() || failure()
-  #   needs: manual_prepare
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/github@master
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       with:
-  #         args: comment "@${{ github.actor }} `shipjs prepare` fail"
