@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/shoota/shipjs-githubflow/compare/v0.6.1...v0.7.0) (2021-12-20)
+
+
+### Bug Fixes
+
+* gha ([a7abf59](https://github.com/shoota/shipjs-githubflow/commit/a7abf59c5244a7921239e1722259b86b8e296375))
+
+
+
 ## [0.6.1](https://github.com/shoota/shipjs-githubflow/compare/v0.6.0...v0.6.1) (2021-11-15)
 
 

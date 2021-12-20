@@ -1,6 +1,6 @@
 {
   "name": "shipjs-githubflow",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "shipjs using on github flow",
   "main": "index.js",
   "scripts": {
