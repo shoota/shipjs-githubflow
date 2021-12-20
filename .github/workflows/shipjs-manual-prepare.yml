@@ -1,0 +1,26 @@
+name: Ship js Prepare
+on:
+  workflow_dispatch:
+jobs:
+  manual_prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: prod
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: |
+          if [ -f "yarn.lock" ]; then
+            yarn install && yarn codegen
+          else
+            npm install && npm run codegen
+          fi
+      - run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      - run: npm run release:prepare -- --yes --no-browse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
