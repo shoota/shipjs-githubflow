@@ -1,6 +1,8 @@
 name: Ship js Prepare
 on:
   workflow_dispatch:
+    branches:
+      - prod
 jobs:
   manual_prepare:
     runs-on: ubuntu-latest
