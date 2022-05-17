@@ -1,3 +1,7 @@
+# [0.8.0](https://github.com/shoota/shipjs-githubflow/compare/v0.7.0...v0.8.0) (2022-05-17)
+
+
+
 # [0.7.0](https://github.com/shoota/shipjs-githubflow/compare/v0.6.1...v0.7.0) (2021-12-20)
 
 
